@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/sample_try_2.css">
+    <title>じゃんけん</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="janken">じゃんけん</h1>
+    </header>
+
+    <main>
+        <div class="setumei"> 
+            ▼▼「下の図から、ジャンケンの手をクリックしてね ▼▼
+        </div>
+
+        <ul>
+            <li id="gu_btn"><img src="img/guu.png" alt="ジャンケングーの図">グー</li>
+            <li id="cho_btn"> <img src="img/cyoki.png" alt="">チョキ</li>
+            <li id="par_btn"> <img src="img/paa.png" alt=""> パー</li>
+        </ul>
+
+        <div class="setumei_2">
+            コンピュータの出した手は？
+            <p id="nani">「<span id="pc_hands">なに？
+             </span>」</p>
+        </div>
+
+        <img id="jazimentimg" alt="PCの手" />
+
+        <div id="judgment">
+            結果が表示される
+            <img id="judgment_kekka" alt="結果" />
+        </div>
+    </main>
+
+    <footer></footer>
+    <!-- JSタグ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/tly.js"></script>
+
+
+   
+
+</body>
+
+</html>
